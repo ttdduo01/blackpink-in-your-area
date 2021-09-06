@@ -1,1 +1,1 @@
-# blacpink-in-your-area
+# blackpink-in-your-area
