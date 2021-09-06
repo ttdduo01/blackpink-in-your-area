@@ -1,0 +1,303 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+}
+.warpper{
+	width: 1044px;
+	height: 1000px;
+	margin: 0 auto;
+}
+.header{
+	width: 70%;
+	height: 65px;
+	margin: 0 auto;
+}
+.logo{
+	width: 10%;
+	height: 100%;
+/*	background: purple;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+	padding: 14px 0
+}
+.nav{
+	width: 50%;
+	height: 100%;
+/*	background: #F4C5C6;*/
+	float: left;
+	font-size: 15px
+}
+.nav ul{
+	list-style: none;
+	text-align: left;
+    padding: 25px 15px;
+}
+.nav li{
+	display: inline-block;
+	margin-left: 15px;
+}
+.nav a{
+	color: black;
+	text-decoration: none;
+}
+.container{
+	width: 40%;
+	height: 100%;
+/*	background: #F3B089;*/
+	float: right;
+}
+.content{
+	width: 170px;
+	height: 50px;
+	float: right;
+	margin: 22px 0;
+}
+.content a{
+	font-weight: 500;
+	background: #4f49f3;
+	color: white;
+	text-decoration: none;
+	padding: 14px;
+	border-radius: 8px; 
+}
+.content-1{
+	width: 140px;
+	height: 50px;
+	float: right;
+	margin: 22px 9px;
+}
+.content-1 a{
+	font-weight: 500;
+	background: white;
+	color: black;
+	text-decoration: none;
+	padding: 13px;
+	border:2px solid;
+	border-radius: 8px;
+}
+.content-2 a{
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+	float: right;
+	margin: 22px 10px;
+}
+.section-1{
+	width: 100%;
+	height: 750px;
+	background:#393856;
+}
+.box_1{
+	width: 530px;
+	height: 370px;
+/*	background: #C09696;*/
+	float: left;
+	padding: 300px 0 0 270px;
+}
+h2{
+	color: white;
+	font-size: 80px;
+}
+span{
+	color: white;
+	font-size: 22px;
+}
+.box_1 a{
+	font-weight: 500;
+	background: #4f49f3;
+	color: white;
+	text-decoration: none;
+	padding: 14px;
+	border-radius: 8px; 
+}
+
+p{
+	color: white;
+	font-size: 12px;
+	padding-top: 25px;
+}
+.box_2{
+	width: 50%;
+	height: 100%;
+	background: url("../img/anh-gif-3-min.gif");
+	float: right;	
+}
+.section-2{
+	width: 100%;
+	height: 750px;
+/*	background: #A8595A;*/
+	padding: 12px 0;
+}
+h3{
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+    margin: 50px 0;
+}
+.box{
+	width: 70%;
+	height: 550px;
+	background: url("../img/orange-tv.gif");
+	margin: 60px 100px 100px 280px;
+}
+.section-3{
+	width: 100%;
+	height: 900px;
+	background: #f8f6f0;
+}
+.content-3{
+	width: 20%;
+	height: 200px;
+/*	background: #C5BDBE;*/
+	margin-left: 300px;
+	margin-top: 300px;
+    float: left;
+}
+h4{
+	font-size: 35px;
+}
+.content-3 p{
+	font-size: 22px;
+	color: black;
+}
+.box-3{
+	width: 35%;
+	height: 800px;
+	background: url("../img/anima.gif");
+	float: left;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+.section-4{
+	width:100%;
+	height: 900px;
+/*	background: pink;*/
+	padding: 12px 0;
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+    margin: 150px 0 40px;
+}
+.container-1{
+	width: 70%;
+	height: 650px;
+	background: #413458;
+	margin: 0 auto;
+}
+.content-4{
+	width: 90%;
+	height: 550px;
+/*	background: black;*/
+	float: left;
+	margin-left: 55px;
+	margin-top: 50px 
+}
+.box-big{
+	width: 70%;
+	height: 100%;
+	background: url("../img/c9bed080b241013684292e3114808e6e.gif");
+	float: left;
+	border-radius: 10px;
+}
+.box-small{
+	width: 30%;
+	height: 90%;
+/*	background: #9CE9D7;*/
+	float: right;
+	text-align: left;
+}
+.box-small a,h5{
+	margin-left: 90px;
+	color: white;
+}
+a{
+	text-decoration: none;
+}
+h5{
+	font-weight: 500;
+	font-size: 18px;
+	padding: 10px 0
+}
+.section-5{
+	width: 100%;
+	height: 50px;
+/*	background: #F9DCDD;*/
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+.section-5 a{
+	font-weight: 500;
+	color: black;
+	background: white;
+	padding: 14px;
+	border: 2px solid;
+	border-radius: 8px;
+}
+.section-6{
+	width: 100%;
+	height: 550px;
+/*	background: #A6BCF8;*/
+}
+.content-6 img{
+	float: left;
+	margin: 140px 160px 50px 450px;
+	border-radius: 170px 170px 0 0;
+}
+.box-6{
+	width: 500px;
+	float: left;
+	margin-top: 100px;
+}
+.box-6 p{
+	font-size: 34px;
+	color: black;
+}
+.box-6 b{
+	font-size: 17px;
+}
+.box-6 h6{
+	font-size: 20px;
+	font-weight: 400
+}
+.box-6 img{
+	margin-top: 20px;
+}
+.footer{
+	width: 100%;
+	height: 150px;
+	background: red;
+	overflow: hidden;
+}
+.box-last-1{
+	width: 20%;
+	height: 550px;
+    background: #f8f6f0;
+	float: left;
+}
+.box-last-1 img{
+	margin-left: 270px;
+	margin-top: 20px;
+}
+.box-last-2{
+	width: 80%;
+	height: 100%;
+    background: #393855;
+	float: right;
+}
+.box-last-2 p{
+	text-align: center;
+    margin-top: 70px;
+}
